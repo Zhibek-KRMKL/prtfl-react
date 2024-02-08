@@ -73,6 +73,34 @@ button:focus-visible {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+//my css
+/* .linkStyle {
+  color: #6b240c;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+.forMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.menuStyle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  color: white !important;
+} */
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -97,7 +125,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: green;
   }
   a:hover {
     color: #747bff;
